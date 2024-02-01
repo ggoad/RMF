@@ -1,0 +1,116 @@
+.RMFhiderClosed{
+   height:0;
+   overflow:hidden;
+}
+
+.RMFhiderLabel{
+   cursor:pointer;
+}
+.basicModalParent{
+   position:fixed;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+}
+.basicModalBacker{
+   position:absolute;
+   left:0;
+   top:0;
+   width:100%;
+   height:100%;
+   background-color:black;
+   opacity:0.5;
+}
+.basicModalClient{
+   box-sizing:border-box;
+   position:absolute;
+   left:5%;
+   width:90%;
+   top:5%;
+   height:90%;
+   background-color:seashell;
+   overflow:scroll;
+   padding-top:8vh;
+}
+.basicModalCloser{
+   font-size:150%;
+   position:fixed;
+   right:8%;
+   top:2%;
+   padding:3px;
+   cursor:pointer;
+   background-color:white;
+}
+
+
+
+.RMF_modalWrapper{
+   position:fixed;
+   left:0; top:0; width:100%; height:100%;
+}
+
+.RMF_modalBacker{
+   position:absolute; 
+   left:0; top:0; width:100%; height:100%;
+   opacity:0;
+}
+
+.RMF_modalClient{
+   position:absolute;
+   left:3%;
+   top:3%;
+   height:94%; width:40%;
+   color:white;
+   text-shadow: 0 0 30px white;
+}
+
+.RMF_modalTicker{
+   display:inline-block;
+   
+}
+
+.RMF_modalAppendage{
+   display:inline-block;
+   background-color:tan;
+   padding:8px;
+}
+.cardBasic{
+   margin:4px;
+   padding:1px;
+}
+.cardBasic:empty{
+	margin:0; padding:0;
+}
+
+.tableSearchsectionLabel{
+  border:3px ridge gold;
+  padding:2px;
+  margin-top:3px;
+  margin-bottom:20px;
+}
+
+.tableSearchsectionLabel+.tableSearchsectionLabel{
+   border-top:3px solid #00ff00;
+   
+}
+
+.tableSearchsectionLabel .tableSearchsectionLabel{
+   border:3px ridge green;
+}
+.tableSearchsectionLabel .tableSearchsectionLabel .tableSearchsectionLabel{
+   border:3px ridge pink;
+}
+
+.tableSearchResult{
+   border:1px solid black;
+   margin:4px;
+   padding:2px;
+   display:inline-block;
+}
+
+
+.RMFdynamicOnCheckboxFallthroughsectionLabel{
+  border:1px dotted black;
+}
+
